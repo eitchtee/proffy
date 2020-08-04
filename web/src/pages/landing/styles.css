@@ -115,6 +115,7 @@
     .hero-image {
         grid-area: hero;
         justify-self: end;
+        height: 50vh;
     }
 
     .buttons-container {
