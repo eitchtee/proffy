@@ -2,7 +2,7 @@ import React, { useState, FormEvent } from 'react';
 
 import PageHeader from '../../components/PageHeader';
 import Input from '../../components/Input';
-import TeacherItem from '../../components/TeacherItem';
+import TeacherItem, { Teacher } from '../../components/TeacherItem';
 import Select from '../../components/Select';
 
 import api from '../../services/api';
@@ -75,8 +75,8 @@ function TeacherList () {
             </PageHeader>
 
             <main>
-                {teachers.map(teacher => {
-                    return (<TeacherItem />)
+                {teachers.map((teacher: Teacher) => {
+                    return (<TeacherItem key={teacher.id} teacher={teacher} />)
                 })}
             </main>
         </div>
