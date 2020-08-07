@@ -17,7 +17,7 @@
 ----
 
 <p align="center">
-    <a href="#screenshots">📸 Screenshots</a> • <a href="#running">👷 Running</a>
+    <a href="#screenshots">📸 Screenshots</a> • <a href="#tech-stack">🛠️ Tech Stack</a> • <a href="#getting-started">👷 Getting Started</a>
 </p>
 
 ## Screenshots
@@ -25,7 +25,29 @@
 ### Web
 <img src="./.github/web-landing.png" width="45%"></img> <img src="./.github/web-form.png" width="45%"></img> <img src="./.github/web-listing.png" width="45%"></img>
 
-## Running
+## Tech Stack
+#### **Website**  ([React](https://reactjs.org/)  +  [TypeScript](https://www.typescriptlang.org/))
+
+-   **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
+-   **[Axios](https://github.com/axios/axios)**
+
+> See [package.json](https://github.com/eitchtee/Proffy/blob/master/web/package.json)
+
+#### [](https://github.com/tgmarinho/Ecoleta#server-nodejs--typescript)**Server**  ([NodeJS](https://nodejs.org/en/)  +  [TypeScript](https://www.typescriptlang.org/))
+
+-   **[Express](https://expressjs.com/)**
+-   **[CORS](https://expressjs.com/en/resources/middleware/cors.html)**
+-   **[KnexJS](http://knexjs.org/)**
+-   **[SQLite](https://github.com/mapbox/node-sqlite3)**
+
+> See [package.json](https://github.com/eitchtee/Proffy/blob/master/server/package.json)
+
+#### [](https://github.com/tgmarinho/Ecoleta#utilit%C3%A1rios)**Utilitários**
+
+-   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)**
+-   API Test:  **[Insomnia](https://insomnia.rest/)**
+
+## Getting Started
 
 ### Requirements
 * [Node.js](https://nodejs.org/en-url)
