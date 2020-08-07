@@ -5,12 +5,13 @@
 <h1 align="center">Proffy</h1>
 <p align="center">Online platform to connect students and teachers</p>
 <div align="center">
-  <sub>:rocket: Made as a learning exercise during the "Next Level Week #2" hosted by [@Rocketseat](https://github.com/Rocketseat).</sub>
+  <sub>:rocket: Made as a learning exercise during the "Next Level Week #2" hosted by @Rocketseat.</sub>
 </div>
+
+<br />
 
 <div align="center">
   <a href="https://github.com/eitchtee/proffy/blob/master/LICENSE" target="_blank"><img alt="License: MIT" src="https://img.shields.io/github/license/eitchtee/proffy?color=8257e5&style=for-the-badge"></a>
-  
 </div>
 
 ----
