@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="./assets/landing.png" width="30%"></img> <img src="./assets/form.png" width="30%"></img> <img src="./assets/list.png" width="30%"></img>
+</div>
+
 <h1 align="center">Proffy</h1>
 <p align="center"></p>
 
