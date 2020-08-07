@@ -2,7 +2,7 @@
   <img src="./.github/logo.png" width="30%"></img>
 </div>
 
-<h1 align="center">Proffy</h1>
+<h3 align="center">Proffy</h3>
 <p align="center">Online platform to connect students and teachers</p>
 <div align="center">
   <sub>:rocket: Made as a learning exercise during the "Next Level Week #2" hosted by @Rocketseat.</sub>
