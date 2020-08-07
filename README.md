@@ -17,10 +17,64 @@
 ----
 
 <p align="center">
-    • <a href="#screenshots">📸 Screenshots</a> •
+    <a href="#screenshots">📸 Screenshots</a> • <a href="#running">👷 Running</a>
 </p>
 
 ## Screenshots
 
 ### Web
 <img src="./.github/web-landing.png" width="45%"></img> <img src="./.github/web-form.png" width="45%"></img> <img src="./.github/web-listing.png" width="45%"></img>
+
+## Running
+
+### Requirements
+* [Node.js](https://nodejs.org/en-url)
+* [Yarn](https://classic.yarnpkg.com/)
+* [Expo](https://expo.io/)
+
+### Clone
+```bash
+$ git clone https://github.com/eitchtee/Proffy.git
+```
+
+### API
+
+Go to `server` folder
+```bash
+$ cd Proffy/server
+```
+
+Install dependencies
+```bash
+$ yarn install
+```
+
+Migrate the database
+```bash
+$ yarn knex:migrate
+```
+
+Run server
+```bash
+$ yarn start
+```
+> The API will be exposed on http://localhost:3333/
+
+### Web
+
+Go to `web` folder
+```bash
+$ cd Proffy/web
+```
+
+Install dependencies
+```bash
+$ yarn install
+```
+
+Start live server
+```bash
+# Run Aplication
+$ yarn start
+```
+> Go to http://localhost:3000/
